@@ -6,6 +6,8 @@ import { useCookies } from "react-cookie";
 import "./../../css/Profile/ProfileEdit.css";
 import UserProfile from "./UserProfile";
 
+// Copyright © 2023, Mike Vermeer & Guido Erdtsieck, All rights reserved.
+
 function ProfileEdit(data) {
   const [Success, setSuccess] = useState(false);
   const [error, setError] = useState("no error");

@@ -9,6 +9,9 @@ import * as TbIcons from "react-icons/tb";
 import EventEdit from "./EventEdit";
 import EventInvite from "./EventInvite";
 import EventDelete from "./EventDelete";
+
+// Copyright © 2023, Mike Vermeer & Guido Erdtsieck, All rights reserved.
+
 function SingleEvent() {
   const [currentInvitedUsers, setcurrentInvitedUsers] = useState([{}]);
   const csrftoken = useCookies(["csrftoken"]);

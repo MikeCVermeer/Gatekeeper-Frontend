@@ -7,6 +7,8 @@ import { motion } from "framer-motion";
 import axiosinstance from "../../api/axiosApi";
 import { useEffect } from "react";
 
+// Copyright © 2023, Mike Vermeer & Guido Erdtsieck, All rights reserved.
+
 function QrProfile(userdata, option) {
 
   const [scan, setScan] = useState(false);

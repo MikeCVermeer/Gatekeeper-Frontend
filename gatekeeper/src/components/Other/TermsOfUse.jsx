@@ -1,5 +1,6 @@
 import "./../../css/Miscellaneous/GlobalStyle.css";
 
+// Copyright © 2023, Mike Vermeer & Guido Erdtsieck, All rights reserved.
 
 function TermsOfUse() {
   return (

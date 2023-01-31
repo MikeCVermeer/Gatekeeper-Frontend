@@ -14,6 +14,8 @@ import Nav from './Other/NavBar.jsx';
 import MyEvents from './Events/MyEvents';
 import SingleEvent from './Events/SingleEventPage';
 
+// Copyright © 2023, Mike Vermeer & Guido Erdtsieck, All rights reserved.
+
 function RouterGate() {
     const location = useLocation();
     return (
